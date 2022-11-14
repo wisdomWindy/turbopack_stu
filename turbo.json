@@ -3,6 +3,15 @@
     "build":{
       "input":["src/index.js"],
       "output":["dist/"]
+    },
+    "dev":{
+      "input": [
+        "src/index.js"
+      ],
+      "output": [
+        "dist/"
+      ],
+      "env":["VUE_APP_"]
     }
   }
 }
