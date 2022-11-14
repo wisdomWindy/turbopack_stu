@@ -1,0 +1,8 @@
+{
+  "pipeline":{
+    "build":{
+      "input":["src/index.js"],
+      "output":["dist/"]
+    }
+  }
+}
