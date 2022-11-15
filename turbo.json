@@ -1,15 +1,18 @@
 {
+  "$schema": "https://turbo.build/schema.json",
+  
   "pipeline":{
     "build":{
-      "input":["src/index.js"],
-      "output":["dist/"]
+      "inputs":["src/index.js"],
+      "outputs":["dist/**"]
     },
     "dev":{
-      "input": [
+     
+      "inputs": [
         "src/index.js"
       ],
-      "output": [
-        "dist/"
+      "outputs": [
+        "dist/**"
       ],
       "env":["VUE_APP_"]
     }

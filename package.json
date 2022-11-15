@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"turbo build",
-    "dev":"turbo dev"
+    "build":"turbo run build",
+    "dev":"turbo run dev"
   },
   "keywords": [],
   "author": "",
