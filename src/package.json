@@ -1,3 +1,4 @@
 {
-  "name":"mywork"
+  "name":"mywork",
+  "main":"./index.js"
 }

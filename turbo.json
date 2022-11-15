@@ -3,8 +3,9 @@
   
   "pipeline":{
     "build":{
-      "inputs":["src/index.js"],
-      "outputs":["dist/"]
+      "dependsOn": ["^build"],
+      "inputs":["src/*.js","index.js"],
+      "outputs":["dist/**"]
     },
     "dev":{
      
