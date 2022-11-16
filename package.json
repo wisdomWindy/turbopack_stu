@@ -2,24 +2,16 @@
   "name": "turbopack_stu",
   "version": "1.0.0",
   "description": "",
-  "workspaces":["app/*"],
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "turbo run build",
-    "dev": "dotenv -- turbo run dev"
+    "build":"turbo run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv-cli": "^6.0.0",
-    "web":"workspaces:*"
-  },
-  "engines": {
-    "node": ">=14.0.0"
-  },
-  "devDependencies": {
     "turbo": "^1.6.3"
-  },
-  "packageManager": "pnpm@7.16.0"
+  }
 }

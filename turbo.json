@@ -3,6 +3,7 @@
   
   "pipeline":{
     "build":{
+      "inputs":["app/**/*.js"],
       "dependsOn": ["^build"],
       "outputs":["dist/**"]
     },
