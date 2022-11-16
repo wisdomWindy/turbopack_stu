@@ -12,7 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv-cli": "^6.0.0"
+    "dotenv-cli": "^6.0.0",
+    "web":"workspaces:*"
   },
   "engines": {
     "node": ">=14.0.0"
